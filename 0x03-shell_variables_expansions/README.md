@@ -12,4 +12,4 @@ set | less -- script that lists all local variables and environment variables, a
 
 export BETTY=Holberton -- script that creates a new local variable
 
-export School=BEST -- script that creates a new global variable
+export BEST=School -- script that creates a new global variable
