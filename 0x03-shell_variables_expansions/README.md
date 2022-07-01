@@ -17,3 +17,5 @@ export BEST=School -- script that creates a new global variable
 echo $((128+$TRUEKNOWLEDGE)) -- script prints result of addition of 128 to value stored in environment variable TRUEKNOWLEDGE
 
 echo $(($POWER/$DIVIDE)) -- script that prints the result of POWER divided by DIVIDE
+
+echo $(($BREATH**$LOVE)) -- script that displays the result of BREATH to the power LOVE
