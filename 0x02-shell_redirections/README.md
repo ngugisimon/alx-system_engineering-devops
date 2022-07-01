@@ -29,3 +29,5 @@ sort | uniq -u -- script that takes a list of words as input and prints only wor
 grep -e "root" /etc/passwd -- Display lines containing the pattern “root” from the file /etc/passwd
 
 grep -c "bin" /etc/passwd -- Display the number of lines that contain the pattern “bin” in the file
+
+grep -A 3 "root" /etc/passwd --Display lines containing the pattern “root” and 3 lines after them in the file
