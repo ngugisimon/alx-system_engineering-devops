@@ -9,3 +9,5 @@ echo $PATH | tr : "\n" | wc -l -- script that counts the number of directories i
 printenv | less -- script that lists environment variables
 
 set | less -- script that lists all local variables and environment variables, and functions
+
+export BETTY=Holberton -- script that creates a new local variable
