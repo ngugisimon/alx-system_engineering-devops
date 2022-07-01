@@ -23,3 +23,5 @@ echo $(($BREATH**$LOVE)) -- script that displays the result of BREATH to the pow
 echo $((2#$BINARY)) -- script that converts a number from base 2 to base 10
 
 echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" -- script that prints all possible combinations of two letters, except oo
+
+printf "%.2f\n" $NUM -- script that prints a number with two decimal places
