@@ -7,3 +7,5 @@ export PATH=$PATH:/action -- Add /action to the PATH. /action should be the last
 echo $PATH | tr : "\n" | wc -l -- script that counts the number of directories in the PATH
 
 printenv | less -- script that lists environment variables
+
+set | less -- script that lists all local variables and environment variables, and functions
