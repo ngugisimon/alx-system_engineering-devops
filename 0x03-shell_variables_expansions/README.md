@@ -11,3 +11,5 @@ printenv | less -- script that lists environment variables
 set | less -- script that lists all local variables and environment variables, and functions
 
 export BETTY=Holberton -- script that creates a new local variable
+
+export School=BEST -- script that creates a new global variable
