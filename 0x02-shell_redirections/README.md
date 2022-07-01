@@ -14,4 +14,6 @@ head -n 3 iacta | tail -n 1 -- script that displays the third line of the file i
 
 echo Best School > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) -- script creating file \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School
 
+ls -la >ls_cwd_content -- script that writes into the file ls_cwd_content the result of the command ls -la
+
 `
