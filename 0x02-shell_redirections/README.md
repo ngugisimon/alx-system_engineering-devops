@@ -6,4 +6,6 @@ cat /etc/passwd -- script that displays the content of the /etc/passwd file
 
 less /etc/passwd /etc/hosts -- script to display the content of /etc/passwd and /etc/hosts
 
+tail -n 10 /etc/passwd -- script to display the last 10 lines of /etc/passwd
+
 
