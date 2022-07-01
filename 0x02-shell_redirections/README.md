@@ -16,4 +16,4 @@ echo Best School > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) -- script creating fil
 
 ls -la >ls_cwd_content -- script that writes into the file ls_cwd_content the result of the command ls -la
 
-`
+tail -n 1 iacta >> iacta -- script that duplicates the last line of the file iacta`
