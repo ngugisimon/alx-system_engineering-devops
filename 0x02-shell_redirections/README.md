@@ -31,3 +31,5 @@ grep -e "root" /etc/passwd -- Display lines containing the pattern “root” fr
 grep -c "bin" /etc/passwd -- Display the number of lines that contain the pattern “bin” in the file
 
 grep -A 3 "root" /etc/passwd --Display lines containing the pattern “root” and 3 lines after them in the file
+
+grep -v "bin" /etc/passwd -- Display all the lines in the file /etc/passwd that do not contain the pattern “bin”
