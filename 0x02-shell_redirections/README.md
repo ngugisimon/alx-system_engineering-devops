@@ -8,4 +8,4 @@ less /etc/passwd /etc/hosts -- script to display the content of /etc/passwd and 
 
 tail -n 10 /etc/passwd -- script to display the last 10 lines of /etc/passwd
 
-
+head -n 10 /etc/passwd -- script to display the first 10 lines of /etc/passwd
