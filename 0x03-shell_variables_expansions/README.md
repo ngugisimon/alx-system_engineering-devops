@@ -13,3 +13,5 @@ set | less -- script that lists all local variables and environment variables, a
 export BETTY=Holberton -- script that creates a new local variable
 
 export BEST=School -- script that creates a new global variable
+
+echo $((128+$TRUEKNOWLEDGE)) -- script prints result of addition of 128 to value stored in environment variable TRUEKNOWLEDGE
