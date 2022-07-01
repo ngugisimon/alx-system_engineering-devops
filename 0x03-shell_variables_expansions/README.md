@@ -19,3 +19,5 @@ echo $((128+$TRUEKNOWLEDGE)) -- script prints result of addition of 128 to value
 echo $(($POWER/$DIVIDE)) -- script that prints the result of POWER divided by DIVIDE
 
 echo $(($BREATH**$LOVE)) -- script that displays the result of BREATH to the power LOVE
+
+echo $((2#$BINARY)) -- script that converts a number from base 2 to base 10
